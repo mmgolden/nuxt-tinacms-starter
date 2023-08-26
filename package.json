@@ -1,5 +1,13 @@
 {
-  "private": true,
+  "name": "nuxt-tinacms-starter",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "Melinda Golden <info@melindagolden.com> (https://melindagolden.com/)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mmgolden/nuxt-tinacms-starter/"
+  },
+  "private": false,
   "scripts": {
     "build": "tinacms build && nuxt build",
     "dev": "tinacms dev -c 'nuxt dev'",
