@@ -1,6 +1,6 @@
 {
   "name": "nuxt-tinacms-starter",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "author": "Melinda Golden <info@melindagolden.com> (https://melindagolden.com/)",
   "repository": {
@@ -18,14 +18,18 @@
   "dependencies": {
     "@nuxt/content": "^2.7.2",
     "@nuxtjs/eslint-config-typescript": "^12.0.0",
+    "@tinacms/auth": "^1.0.3",
     "@tinacms/cli": "^1.5.29",
     "@types/node": "^18.17.0",
     "@typescript-eslint/parser": "^5.62.0",
     "eslint": "^8.48.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-prettier": "^5.0.0",
+    "express": "^4.18.2",
+    "next-tinacms-cloudinary": "^4.3.5",
     "nuxt": "^3.6.5",
     "prettier": "^3.0.2",
+    "serverless-http": "^3.2.0",
     "tinacms": "^1.5.20",
     "typescript": "^5.2.2"
   }
