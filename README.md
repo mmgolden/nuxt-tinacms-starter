@@ -22,9 +22,11 @@ Create a new file called .env and copy the contents of .env.example to that file
 You will need a Tina Cloud account and a Cloudinary account. Add your keys to the .env file.
 
 Install dependencies
+
 `npm install`
 
 Start the dev server
+
 `npm run dev`
 
 Open the site at http://localhost:3000
@@ -36,6 +38,7 @@ To access Tina CMS locally, go to http://localhost:3000/admin/
 Use the Netlify CLI to run the Netlify function locally and use the media manager. See the [installation documentation](https://docs.netlify.com/cli/get-started/#installation).
 
 Test Netlify functions locally
+
 `netlify dev`
 
 Open the site at http://localhost:8888
@@ -45,4 +48,5 @@ To access Tina CMS and the media manager locally, go to http://localhost:8888/ad
 ### Deployment
 
 Generate a static site
+
 `npm run generate`
