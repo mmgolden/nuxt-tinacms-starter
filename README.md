@@ -4,14 +4,14 @@ A starter template for Nuxt 3, Nuxt Content, and Tina CMS
 
 ## Features
 
-[Nuxt 3](https://nuxt.com/)
-[Nuxt Content](https://content.nuxtjs.org/)
-[Tina CMS](https://tina.io/)
-[Netlify functions](https://www.netlify.com/products/functions/)
-Media management with [Cloudinary](https://cloudinary.com/)
-TypeScript
-ESLint
-Prettier
+- [Nuxt 3](https://nuxt.com/)
+- [Nuxt Content](https://content.nuxtjs.org/)
+- [Tina CMS](https://tina.io/)
+- [Netlify functions](https://www.netlify.com/products/functions/)
+- Media management with [Cloudinary](https://cloudinary.com/)
+- TypeScript
+- ESLint
+- Prettier
 
 ## Getting started
 
