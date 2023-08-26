@@ -3,4 +3,10 @@ export default defineNuxtConfig({
   modules: ["@nuxt/content"],
 
   css: ["~/assets/main.css"],
+
+  router: {
+    options: {
+      strict: true,
+    },
+  },
 });
