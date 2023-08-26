@@ -1,14 +1,24 @@
 {
   "private": true,
   "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview"
+    "build": "tinacms build && nuxt build",
+    "dev": "tinacms dev -c 'nuxt dev'",
+    "generate": "tinacms build && nuxt generate",
+    "preview": "nuxt preview",
+    "lint": "eslint ."
   },
-  "devDependencies": {
-    "@types/node": "^18.17.0",
+  "dependencies": {
     "@nuxt/content": "^2.7.2",
-    "nuxt": "^3.6.5"
+    "@nuxtjs/eslint-config-typescript": "^12.0.0",
+    "@tinacms/cli": "^1.5.29",
+    "@types/node": "^18.17.0",
+    "@typescript-eslint/parser": "^5.62.0",
+    "eslint": "^8.48.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "nuxt": "^3.6.5",
+    "prettier": "^3.0.2",
+    "tinacms": "^1.5.20",
+    "typescript": "^5.2.2"
   }
 }
