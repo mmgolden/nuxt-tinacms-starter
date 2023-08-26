@@ -10,8 +10,15 @@
 <script setup lang="ts">
 const { path } = useRoute();
 
-const { data: post } = await useAsyncData(`content-${path}`, () => {
-  return queryContent().where({ _path: path }).findOne();
+// Remove trailing slash before query
+let postPath = path;
+const lastChar = path.charAt(path.length - 1);
+if (lastChar === "/") {
+  postPath = path.slice(0, -1);
+}
+
+const { data: post } = await useAsyncData(`content-${postPath}`, () => {
+  return queryContent().where({ _path: postPath }).findOne();
 });
 </script>
 
